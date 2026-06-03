@@ -8,4 +8,4 @@ use northwind;
 
 SELECT OrderID FROM `order details`
 WHERE ProductID = (SELECT ProductID FROM products
-					WHERE ProductName LIKE "%Sasquatch Ale%")
+					WHERE ProductName = "Sasquatch Ale")
